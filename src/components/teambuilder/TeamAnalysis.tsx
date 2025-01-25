@@ -150,13 +150,13 @@ export default function TeamAnalysis({ team }: TeamAnalysisProps) {
 
   const getWeaknesses = () => {
     return Object.entries(teamEffectiveness)
-      .filter(([_, value]) => value > 1)
+      .filter(([, value]) => value > 1)
       .sort((a, b) => b[1] - a[1]);
   };
 
   const getResistances = () => {
     return Object.entries(teamEffectiveness)
-      .filter(([_, value]) => value < 1)
+      .filter(([, value]) => value < 1)
       .sort((a, b) => a[1] - b[1]);
   };
 

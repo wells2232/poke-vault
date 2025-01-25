@@ -1,4 +1,3 @@
-import { capitalize } from "@/app/utils/formatting";
 import { Badge } from "./ui/badge";
 
 interface TypeBadgeProps {

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const BASE_URL = "https://pokeapi.co/api/v2";
 
 export async function fetchAllPokemon(limit: number = 20, offset: number = 0) {
@@ -68,7 +69,7 @@ export async function fetchPokemonEvolutionChain(pokemonId: string) {
     const evolutionData = await evolutionResponse.json();
 
     // Adicionar informações sobre o método de evolução
-    const addEvolutionDetails = (chain: any) => {
+    const addEvolutionDetails = (chain: { evolves_to: string[] }) => {
       if (chain.evolves_to?.length > 0) {
         chain.evolves_to = chain.evolves_to.map((evolution: any) => ({
           ...evolution,
