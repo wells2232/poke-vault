@@ -1,0 +1,12 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Outer circle -->
+    <circle cx="100" cy="100" r="90" fill="white" stroke="black" stroke-width="5"/>
+    <!-- Top half -->
+    <path d="M 10,100 A 90,90 0 0,1 190,100" fill="red" stroke="black" stroke-width="5"/>
+    <!-- Bottom half -->
+    <path d="M 10,100 A 90,90 0 0,0 190,100" fill="white" stroke="black" stroke-width="5"/>
+    <!-- Center circle -->
+    <circle cx="100" cy="100" r="20" fill="white" stroke="black" stroke-width="5"/>
+    <!-- Inner circle -->
+    <circle cx="100" cy="100" r="10" fill="black"/>
+</svg>

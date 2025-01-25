@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle (Pokeball base) -->
+    <circle cx="50" cy="50" r="40" fill="#FF3366"/>
+    
+    <!-- Vault Door Design -->
+    <circle cx="50" cy="50" r="35" fill="#2A2A4A" stroke="#FF3366" stroke-width="2"/>
+    <circle cx="50" cy="50" r="15" fill="#FF3366"/>
+    <circle cx="50" cy="50" r="12" fill="#2A2A4A"/>
+    
+    <!-- Vault Handle -->
+    <circle cx="50" cy="50" r="8" fill="#FF3366"/>
+    <rect x="50" y="42" width="25" height="4" fill="#FF3366" rx="2"/>
+    
+    <!-- Text -->
+    <text x="105" y="65" font-family="Arial" font-weight="bold" font-size="40" fill="#FFFFFF">
+        PokeVault
+    </text>
+</svg>
